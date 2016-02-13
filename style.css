@@ -1,8 +1,4 @@
-#body {
-	padding-top: 50px;
-	padding-left: 275px;
-	padding-right: 300px; 
-}
+
 
 .center {
 	text-align: center;
@@ -36,6 +32,11 @@ a {
 	color: gray;
 }
 
+#site {
+	max-width: 680px;
+	margin: 0 auto;
+}
+
 #title00 {
     font-family: 'League Script', cursive;
     text-align: center;
@@ -44,9 +45,9 @@ a {
 }
 
 #menu li{
-    display:inline;
-    padding-left: 50px;
-    padding-right: 50px;
+    display:inline-block;
+    width: 19%;
+    min-width: 100px;
     font-family: 'Raleway', sans-serif;
 }
 

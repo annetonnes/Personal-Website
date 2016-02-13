@@ -72,7 +72,12 @@ ul#menu {
     background-color: white;
 }
 
-.contentsquare, .contentsquareh {
+.contentsquare {
+	position: absolute;
+	height: 100%;
+} 
+
+.contentsquareh {
     position:absolute;  
     height: 100%; 
 }

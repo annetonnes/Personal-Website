@@ -2,10 +2,6 @@ div.content {
 	padding-top: 25px;
 }
 
-img {
-	padding: 15px;
-}
-
 h1, h2, h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
@@ -58,4 +54,41 @@ ul#menu {
 
 #menu .active {
 	text-decoration: underline;
+}
+
+#pictures {
+	background-color: rgb(225, 225, 225);
+	overflow: auto;
+	padding: 1%;
+}
+
+.square {
+	float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    overflow:hidden;
+    background-color: white;
+}
+
+.contentsquare, .contentsquareh {
+    position:absolute;  
+    height: 100%; 
+}
+
+.textsquare {
+	position:absolute;
+	height:80%; /* = 100% - 2*10% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 10% 5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contentsquare img {
+	height:100%;
+}
+
+.contentsquareh img {
+	width:100%;
 }

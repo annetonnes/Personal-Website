@@ -32,6 +32,10 @@ a {
 	margin: 0 auto;
 }
 
+img.margin {
+	margin: 10px;
+}
+
 #title00 {
     font-family: 'League Script', cursive;
     text-align: center;
@@ -72,12 +76,7 @@ ul#menu {
     background-color: white;
 }
 
-.contentsquare {
-	position: absolute;
-	height: 100%;
-} 
-
-.contentsquareh {
+.contentsquare, .contentsquareh {
     position:absolute;  
     height: 100%; 
 }

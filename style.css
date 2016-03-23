@@ -34,8 +34,9 @@ img.margin {
 
 #menu li{
     display:inline-block;
-    width: 19%;
-    min-width: 100px;
+    width: 15%;
+    min-width: 85px;
+    font-size: 10pt;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -66,36 +67,6 @@ ul#menu {
 	color: gray;
 }
 
-#submenu li{
-    display:inline-block;
-    width: 10%;
-    min-width: 100px;
-    font-family: 'Raleway', sans-serif;
-    background-color: gray;
-    padding: 5px;
-}
-
-ul#submenu {
-	list-style:none;
-    padding-left:0;
-}
-
-
-#submenu a {
-	text-decoration: none;
-}
-
-#submenu a:link {
-	color: white;
-}
-
-#submenu a:visited {
-	color: white;
-}
-
-#submenu a:hover {
-	color: black;
-}
 
 #pictures {
 	background-color: rgb(225, 225, 225);

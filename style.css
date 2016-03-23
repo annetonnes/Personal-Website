@@ -1,3 +1,9 @@
+#site {
+	max-width: 545px;
+	margin: 0 auto;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
 div.content {
 	padding-top: 25px;
 }
@@ -11,26 +17,9 @@ a {
 	text-decoration: none;
 }
 
-#menu a {
-	text-decoration: none;
-}
-
-#menu a:link {
-	color: black;
-}
-
-#menu a:visited {
-	color: black;
-}
-
-#menu a:hover {
-	color: gray;
-}
-
-#site {
-	max-width: 680px;
-	margin: 0 auto;
-}
+/*p {
+	max-width: 545px;
+}*/
 
 img.margin {
 	margin: 10px;
@@ -39,7 +28,7 @@ img.margin {
 #title00 {
     font-family: 'League Script', cursive;
     text-align: center;
-    font-size: 75pt;
+    font-size: 70pt;
     font-weight: bold;
 }
 
@@ -58,6 +47,54 @@ ul#menu {
 
 #menu .active {
 	text-decoration: underline;
+}
+
+
+#menu a {
+	text-decoration: none;
+}
+
+#menu a:link {
+	color: black;
+}
+
+#menu a:visited {
+	color: black;
+}
+
+#menu a:hover {
+	color: gray;
+}
+
+#submenu li{
+    display:inline-block;
+    width: 10%;
+    min-width: 100px;
+    font-family: 'Raleway', sans-serif;
+    background-color: gray;
+    padding: 5px;
+}
+
+ul#submenu {
+	list-style:none;
+    padding-left:0;
+}
+
+
+#submenu a {
+	text-decoration: none;
+}
+
+#submenu a:link {
+	color: white;
+}
+
+#submenu a:visited {
+	color: white;
+}
+
+#submenu a:hover {
+	color: black;
 }
 
 #pictures {
